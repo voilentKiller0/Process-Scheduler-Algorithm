@@ -4,13 +4,13 @@
 This C++ project implements various process scheduling algorithms to simulate the execution of processes in an operating system. The implemented schedulers include:
 
 
-1. First Come First Serve (FCFS)
-2. Shortest Job First (SJF)
-3. Shortest Remaining Time First (SRTF)
-4. Round Robin (RR)
-5. Longest Job First (LJF)
-6. Longest Remaining Time First (LRTF)
-7. Highest Response Time First (HRTF) - Non-preemptive
+1. First Come First Serve (FCFS) [🔗](https://www.javatpoint.com/os-fcfs-scheduling)
+2. Shortest Job First (SJF) [🔗](https://www.javatpoint.com/os-sjf-scheduling)
+3. Shortest Remaining Time First (SRTF) [🔗](https://www.javatpoint.com/os-srtf-scheduling-algorithm)
+4. Round Robin (RR) [🔗](https://www.javatpoint.com/os-round-robin-scheduling-algorithm)
+5. Longest Job First (LJF) [🔗](https://edurev.in/t/248589/Longest-Job-First--LJF--CPU-Scheduling-Algorithm)
+6. Longest Remaining Time First (LRTF) [🔗](https://www.geeksforgeeks.org/longest-remaining-time-first-lrtf-cpu-scheduling-algorithm/)
+7. Highest Response Time First (HRTF) - Non-preemptive [🔗](https://www.javatpoint.com/os-hrrn-scheduling)
 
 ## Getting Started
 ### Prerequisites
