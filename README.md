@@ -1,8 +1,55 @@
-# Process-Scheduler-Algorithm
-Different Process Scheduler Algorithm 
+# Process Schedulers Implementation in C++
+
+## Overview
+This C++ project implements various process scheduling algorithms to simulate the execution of processes in an operating system. The implemented schedulers include:
 
 
-## output
+1. First Come First Serve (FCFS)
+2. Shortest Job First (SJF)
+3. Shortest Remaining Time First (SRTF)
+4. Round Robin (RR)
+5. Longest Job First (LJF)
+6. Longest Remaining Time First (LRTF)
+7. Highest Response Time First (HRTF) - Non-preemptive
+
+## Getting Started
+### Prerequisites
+Make sure you have the following installed on your system:
+
+* C++ compiler (e.g., g++)
+* Git (optional, for cloning the repository)
+
+### Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/voilentKiller0/Process-Scheduler-Algorithm.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd Process-Scheduler-Algorithm
+   ```
+3. Compile the source code:
+   ```
+   g++ "main.cpp" -o "main.exe"
+   ```
+
+### USage
+
+Run the compiled executable:
+```
+.\main.exe
+```
+The program will first prompt you to choose the type of input you want to provide, whether it is through the terminal or from an input.txt file. Then, you will be asked to provide the time quantum for the Round Robin Algorithm. 
+After that, you will be prompted to enter the number of processes you want to schedule. 
+Finally, you will need to enter the arrival time and burst time for each process, separated by a space.
+
+### File Structure 
+
+* main.cpp : Entry point of the program.
+* input.txt : For file input.
+
+## Output
 
 ```
 PS D:\Scheduler> cd "d:\Scheduler\" ; if ($?) { g++ "main.cpp" -o "main.exe" } ; if ($?) { & ".\main.exe" }
@@ -128,3 +175,5 @@ Average Tunr Around Time (TAT) Time : 8
 Average Waiting Time (WT) Time : 4
 
 ```
+
+
